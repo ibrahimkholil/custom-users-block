@@ -1,0 +1,37 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.user-lists {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.user-lists li {
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  padding: 30px 20px;
+}
+.user-lists li .user-image {
+  margin-bottom: 20px;
+}
+.user-lists li .user-email {
+  margin-bottom: 10px;
+}
+.user-lists li button {
+  background: #e4edf2;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user-lists li button:hover {
+  background: #0693e3;
+  color: #fff;
+}
+.user-lists li + li {
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=style-custom-users-block.css.map*/

@@ -1,0 +1,33 @@
+.user-lists{
+    list-style:none;
+    display:flex;
+    padding:0;
+    margin:0;
+}
+.user-lists li{
+    text-align:center;
+    border:1px solid #e3e3e3;
+    padding:30px 20px;
+}
+.user-lists li+li{
+    margin-left:15px;
+}
+.user-lists li .user-image{
+    margin-bottom:20px;
+}
+.user-lists li .user-email{
+    margin-bottom:10px;
+}
+
+.user-lists li button{
+    background: #e4edf2;
+    border:none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.user-lists li button:hover{
+    background: #0693e3;
+    color: #fff;
+}
