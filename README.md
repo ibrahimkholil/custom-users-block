@@ -1,6 +1,6 @@
 Specification:
 
-1.Create a custom native Gutenberg block using native WordPress and Gutenberg functionality. Block name: Custom users block
+1. Create a custom native Gutenberg block using native WordPress and Gutenberg functionality. Block name: Custom users block
 
 2. The block should have a select field where you can select the users that should appear in the block.
 
